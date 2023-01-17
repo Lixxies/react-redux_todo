@@ -1,0 +1,63 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+}
+
+.loaderOuter {
+  display: flex;
+  justify-content: center;
+}
+
+.todoItem {
+  width: 100%;
+  position: relative;
+  border-top: 1px solid #cac9c944;
+  font-size: 1.3rem;
+  padding: 13px 0;
+}
+
+.wrapper {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+}
+
+label {
+  display: none;
+}
+
+select {
+  width: 85px;
+  padding: 5px;
+  font-weight: bolder;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.green {
+  color: #008000;
+}
+.blue {
+  color: #0000ff;
+}
+.orange {
+  color: #ffa500;
+}
+.purple {
+  color: #800080;
+}
+.red {
+  color: #ff0000;
+}
+
+.checkbox {
+  margin-right: 15px;
+}
+
+.checkbox,
+.selectColor,
+.todo,
+.wrapper {
+  display: inline-block;
+}

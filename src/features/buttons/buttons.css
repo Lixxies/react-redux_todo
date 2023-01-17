@@ -1,0 +1,26 @@
+.btnDiv {
+  display: inline-block;
+}
+
+.action {
+  padding: 5px 10px;
+  font-size: 0.8rem;
+}
+
+.delete {
+  background-color: transparent;
+  border: none;
+  padding: 7px 7px;
+}
+
+.delete:hover,
+.delete:focus {
+  background-color: transparent;
+  border: none;
+}
+
+.delete::before {
+  content: "X";
+  font-size: 1.2rem;
+  color: #db5353;
+}

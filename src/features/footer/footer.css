@@ -1,0 +1,79 @@
+.outer {
+  padding: 10px;
+  border-top: 1px solid #cac9c944;
+  display: flex;
+  justify-content: space-evenly;
+  color: #000;
+  font-weight: bolder;
+}
+
+.actions,
+.remaining,
+.filterSt,
+.filterCl {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+}
+
+.remaining div {
+  font-weight: lighter;
+}
+
+.status {
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.status:hover {
+  font-weight: bold;
+}
+
+.status.selected {
+  font-weight: bold;
+}
+
+.colorFlInner input,
+div {
+  display: inline-block;
+}
+
+.filterCl {
+  align-items: flex-start;
+}
+
+#checkCl,
+.colorBox {
+  margin-right: 10px;
+}
+
+.colorBox {
+  width: 20px;
+  height: 13px;
+  border-radius: 3px;
+}
+
+#green {
+  background-color: green;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#orange {
+  background-color: orange;
+}
+
+#purple {
+  background-color: purple;
+}
+
+#red {
+  background-color: red;
+}

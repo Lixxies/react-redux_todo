@@ -1,0 +1,23 @@
+.inputOuter {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputOuter .loader {
+  flex-shrink: 1;
+}
+
+#input {
+  border: none;
+  font-size: 1.5rem;
+  width: 70%;
+}
+
+#input:focus {
+  box-shadow: none;
+}
+
+#input::placeholder {
+  padding-left: 25px;
+}
